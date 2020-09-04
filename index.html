@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="path/to/bootstrap/css/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    />
+    <link href="assets/css/font-awesome.min.css" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+    <link rel="stylesheet" href="web.css" />
+    <link rel="stylesheet" href="path/to/bootstrap/css/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="path/to/font-awesome/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="web.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link href="assets/css/font-awesome.min.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="path/to/font-awesome/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <div class="main">
+      <div class="navbar">
+        <div id="mySidenav" class="sidenav">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+            >Close Menu</a
+          >
+          <a href="#food" onclick="closeNav()">Food</a>
+          <a href="#about" onclick="closeNav()">About</a>
+        </div>
+
+        <!-- <div class="closeMenu">close</div> -->
+        <div class="closetoggle">
+          <span style="font-size: 30px; cursor: pointer" onclick="openNav()"
+            >&#9776;
+          </span>
+        </div>
+        <div class="food">
+          <ul>
+            <li>My Food</li>
+          </ul>
+        </div>
+
+        <div class="mail">
+          <!-- mail -->
+          <!-- <div>Mail</div> -->
+          <ul>
+            <li>Mail</li>
+          </ul>
+        </div>
+      </div>
+      <div class="center"></div>
+      <div class="imagesDiv" id="food">
+        <div class="post">
+          <img src="./images/sandwich.jpg" alt="" class="images" />
+          <div class="headings">
+            <h4>The Perfect Sandwich, A Real NYC Classic</h4>
+          </div>
+          <div class="para">
+            <p>
+              Just some random text, lorem ipsum text praesent tincidunt ipsum
+              lipsum.
+            </p>
+          </div>
+        </div>
+        <div class="post">
+          <img src="./images/steak.jpg" alt="" class="images" />
+          <div class="headings">
+            <h4>Let Me Tell You About This Steak</h4>
+          </div>
+          <div class="para">
+            <p>
+              Once again, some random text to lorem lorem lorem lorem ipsum text
+              praesent tincidunt ipsum lipsum.
+            </p>
+          </div>
+        </div>
+        <div class="post">
+          <img src="./images/cherries.jpg" alt="" class="images" />
+          <div class="headings">
+            <h4>Cherries, interrupted</h4>
+          </div>
+          <div class="para">
+            <p>Lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+            <p>What else?</p>
+          </div>
+        </div>
+        <div class="post">
+          <img src="./images/wine.jpg" alt="" class="images" />
+          <div class="headings">
+            <h4>Once Again, Robust Wine and Vegetable Pasta</h4>
+          </div>
+          <div class="para">
+            <p>Lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="imagesDivSecond">
+        <div class="post">
+          <img src="./images/popsicle.jpg" alt="" class="images" />
+          <div class="headings">
+            <h4>All I Need Is a Popsicle</h4>
+          </div>
+          <div class="para">
+            <p>Lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+          </div>
+        </div>
+        <div class="post">
+          <img src="./images/salmon.jpg" alt="" class="images" />
+          <div class="headings">
+            <h4>Salmon For Your Skin</h4>
+          </div>
+          <div class="para">
+            <p>
+              Once again, some random text to lorem lorem lorem lorem ipsum text
+              praesent tincidunt ipsum lipsum.
+            </p>
+          </div>
+        </div>
+        <div class="post">
+          <img src="./images/sandwich.jpg" alt="" class="images" />
+          <div class="headings">
+            <h4>The Perfect Sandwich, A Real Classic</h4>
+          </div>
+          <div class="para">
+            <p>
+              Just some random text, lorem ipsum text praesent tincidunt ipsum
+              lipsum.
+            </p>
+          </div>
+        </div>
+        <div class="post">
+          <img src="./images/croissant.jpg" alt="" class="images" />
+          <div class="headings">
+            <h4>Le French</h4>
+          </div>
+          <div class="para">
+            <p>
+              Lorem lorem lorem lorem ipsum text praesent tincidunt ipsum
+              lipsum.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="numbers">
+        <a href="#"
+          ><div class="numbersContents">
+            <i class="fas fa-angle-double-left"></i></div
+        ></a>
+        <a href="#"><div class="numbersContents" id="active">1</div></a>
+        <a href="#"><div class="numbersContents">2</div></a>
+        <a href="#"><div class="numbersContents">3</div></a>
+        <a href="#"><div class="numbersContents">4</div></a>
+        <a href="#"
+          ><div class="numbersContents">
+            <i class="fas fa-angle-double-right"></i></div
+        ></a>
+      </div>
+      <div class="line" id="about">
+        <hr />
+      </div>
+
+      <div class="about">
+        <h3>About Me, The Food Man</h3>
+      </div>
+      <div class="aboutImage">
+        <img src="./images/chef.jpg" alt="" />
+      </div>
+      <div class="imageDescription">
+        <div class="imageheading">
+          <h3><b> I am Who I Am!</b></h3>
+        </div>
+
+        <div class="imagepara">
+          <p>With Passion For Real, Good Food</p>
+        </div>
+        <div class="bigpara">
+          <p>
+            Just me, myself and I, exploring the universe of unknownment. I have
+            a heart of love and an interest of lorem ipsum and mauris neque quam
+            blog. I want to share my world with you. Praesent tincidunt sed
+            tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae,
+            ultricies congue gravida diam non fringilla. Praesent tincidunt sed
+            tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae,
+            ultricies congue gravida diam non fringilla.
+          </p>
+        </div>
+      </div>
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <div class="footer">
+        <div class="posts">
+          <div class="footerheadings">
+            <h4>FOOTER</h4>
+          </div>
+          <div class="footerpara">
+            <p>
+              Praesent tincidunt sed tellus ut rutrum. Sed vitae justo
+              condimentum, porta lectus vitae, ultricies congue gravida diam non
+              fringilla.
+            </p>
+          </div>
+        </div>
+        <div class="posts">
+          <div class="footerheadings">
+            <h4>BLOG POSTS</h4>
+          </div>
+          <div class="footerpara">
+            <div class="imgss">
+              <img src="./images/workshop.jpg" alt="" width="20%" />
+              <ul class="list">
+                <li>Lorem</li>
+                <li>Sed mattis nunc</li>
+              </ul>
+            </div>
+            <hr />
+            <div class="imgss">
+              <img src="./images/gondol.jpg" alt="" width="20%" />
+              <ul class="list">
+                <li>Ipsum</li>
+                <li>Praes tinci sed</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="posts">
+          <div class="footerheadings">
+            <h4>POPULAR TAGS</h4>
+          </div>
+          <div class="footerpara1">
+            <p class="footerpara">
+              <span id="span">Travel</span>
+              <span>New York</span>
+              <span>Dinner</span>
+              <span>Salmon</span>
+              <span>France</span>
+              <span>Drinks</span>
+              <span>Ideas</span>
+              <span>Flavors</span>
+              <span>Cuisine</span>
+              <span>Chicken</span>
+              <span>Dressing</span>
+              <span>Fried</span>
+              <span>Fish</span>
+              <span>Duck</span>
+            </p>
+          </div>
+        </div>
+      </div>
+      <br />
+      <br />
+      <br />
+    </div>
+    <script>
+      function openNav() {
+        document.getElementById("mySidenav").style.width = "600px";
+      }
+
+      function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+      }
+    </script>
+  </body>
+</html>
